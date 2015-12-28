@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AndroidElem</string>
+    <string name="android_handler_post_demo">Handler Post Demo</string>
+    <string name="android_handler_post">Handler post</string>
+    <string name="android_handler_post_at_time">Handler post at time</string>
+    <string name="android_handler_post_delay">Handler post delay</string>
+    <string name="android_handler_post_test">Handler post test</string>
+    <string name="android_handler_post_remove">Handler post handler remove</string>
+
+    <string name="android_handler_message_demo">Handler Message Demo</string>
+    <string name="android_handler_message_test">Handler message test</string>
+    <string name="android_handler_message_obtain">Message.obtain + Handler.sendMessage</string>
+    <string name="android_handler_message_target">Message.obtain + Message,sendToTarget</string>
+
+    <string name="android_async_task">AsyncTask Demo</string>
+    <string name="android_async_task_start">AsyncTask start</string>
+
+</resources>
