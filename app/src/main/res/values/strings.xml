@@ -15,4 +15,6 @@
     <string name="android_async_task">AsyncTask Demo</string>
     <string name="android_async_task_start">AsyncTask start</string>
 
+    <string name="android_ndk_jni_demo">Ndk Jni Demo</string>
+
 </resources>

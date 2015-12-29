@@ -79,7 +79,11 @@ public class MainActivity extends AppCompatActivity {
                             startActivity(intent);
                             break;
                         case 2:
-                            intent .setClass(MainActivity.this, AsyncTaskActivity.class);
+                            intent.setClass(MainActivity.this, AsyncTaskActivity.class);
+                            startActivity(intent);
+                            break;
+                        case 3:
+                            intent.setClass(MainActivity.this, NdkJniActivity.class);
                             startActivity(intent);
                             break;
                     }
@@ -104,5 +108,6 @@ public class MainActivity extends AppCompatActivity {
         data.add(getString(R.string.android_handler_post_demo));
         data.add(getString(R.string.android_handler_message_demo));
         data.add(getString(R.string.android_async_task));
+        data.add(getString(R.string.android_ndk_jni_demo));
     }
 }
