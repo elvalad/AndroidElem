@@ -17,6 +17,6 @@ public class NdkJniActivity extends Activity {
         textView = (TextView) findViewById(R.id.ndk_jni_text);
 
         NdkJniUtils jniUtils = new NdkJniUtils();
-        textView.setText(jniUtils.getCLanguageString());
+        textView.setText(jniUtils.getCLanguageString() + jniUtils.recursiveNative(10));
     }
 }

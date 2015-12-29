@@ -15,6 +15,14 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_com_example_app_androidelem_NdkJniUtils_getCLanguageString
   (JNIEnv *, jobject);
 
+/*
+ * Class:     com_example_app_androidelem_NdkJniUtils
+ * Method:    recursiveNative
+ * Signature: (I)J
+ */
+JNIEXPORT jlong JNICALL Java_com_example_app_androidelem_NdkJniUtils_recursiveNative
+  (JNIEnv *, jobject, jint);
+
 #ifdef __cplusplus
 }
 #endif

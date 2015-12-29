@@ -6,6 +6,8 @@ package com.example.app.androidelem;
 public class NdkJniUtils {
     public native String getCLanguageString();
 
+    public native long recursiveNative(int n);
+
     static {
         System.loadLibrary("AndroidElemJniLibName");
     }
