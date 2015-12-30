@@ -86,6 +86,10 @@ public class MainActivity extends AppCompatActivity {
                             intent.setClass(MainActivity.this, NdkJniActivity.class);
                             startActivity(intent);
                             break;
+                        case 4:
+                            intent.setClass(MainActivity.this, TrafficStatesTestActivity.class);
+                            startActivity(intent);
+                            break;
                     }
                 }
             });
@@ -109,5 +113,6 @@ public class MainActivity extends AppCompatActivity {
         data.add(getString(R.string.android_handler_message_demo));
         data.add(getString(R.string.android_async_task));
         data.add(getString(R.string.android_ndk_jni_demo));
+        data.add(getString(R.string.android_traffic_states_demo));
     }
 }

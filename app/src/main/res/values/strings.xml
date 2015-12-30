@@ -17,4 +17,9 @@
 
     <string name="android_ndk_jni_demo">Ndk Jni Demo</string>
 
+    <string name="android_traffic_states_demo">TrafficStates Demo</string>
+    <string name="android_traffic_http_request">Http request ok</string>
+    <string name="android_traffic_start_http">Start Http Request</string>
+    <string name="android_traffic_stop_http">Stop Http Request</string>
+
 </resources>

@@ -25,6 +25,8 @@
         <activity android:name=".AsyncTaskActivity"></activity>
 
         <activity android:name=".NdkJniActivity"></activity>
+
+        <activity android:name=".TrafficStatesTestActivity"></activity>
     </application>
 
 </manifest>
