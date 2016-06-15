@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".AndroidElemApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,15 +19,22 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HandlerPostActivity"></activity>
+        <activity android:name=".HandlerPostActivity"/>
 
-        <activity android:name=".HandlerMessageActivity"></activity>
+        <activity android:name=".HandlerMessageActivity"/>
 
-        <activity android:name=".AsyncTaskActivity"></activity>
+        <activity android:name=".AsyncTaskActivity"/>
 
-        <activity android:name=".NdkJniActivity"></activity>
+        <activity android:name=".NdkJniActivity"/>
 
-        <activity android:name=".TrafficStatesTestActivity"></activity>
+        <activity android:name=".TrafficStatesTestActivity"/>
+
+        <activity android:name=".CalendarViewActivity"/>
+
+        <activity android:name=".WebViewActivity"/>
+
+        <activity android:name=".MemoryLeakActivity"/>
+
     </application>
 
 </manifest>

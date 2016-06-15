@@ -18,8 +18,15 @@
     <string name="android_ndk_jni_demo">Ndk Jni Demo</string>
 
     <string name="android_traffic_states_demo">TrafficStates Demo</string>
-    <string name="android_traffic_http_request">Http request ok</string>
+    <string name="android_traffic_http_request">Http request OK</string>
     <string name="android_traffic_start_http">Start Http Request</string>
     <string name="android_traffic_stop_http">Stop Http Request</string>
+
+    <string name="android_calendar_demo">Calendar Demo</string>
+    <string name="android_webview_demo">WebView Demo</string>
+
+    <string name="android_memleak_demo">MemoryLeak Demo</string>
+    <string name="mem_text_1">memory leak 1</string>
+    <string name="mem_text_2">memory leak 2</string>
 
 </resources>

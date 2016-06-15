@@ -90,6 +90,18 @@ public class MainActivity extends AppCompatActivity {
                             intent.setClass(MainActivity.this, TrafficStatesTestActivity.class);
                             startActivity(intent);
                             break;
+                        case 5:
+                            intent.setClass(MainActivity.this, CalendarViewActivity.class);
+                            startActivity(intent);
+                            break;
+                        case 6:
+                            intent.setClass(MainActivity.this, WebViewActivity.class);
+                            startActivity(intent);
+                            break;
+                        case 7:
+                            intent.setClass(MainActivity.this, MemoryLeakActivity.class);
+                            startActivity(intent);
+                            break;
                     }
                 }
             });
@@ -114,5 +126,8 @@ public class MainActivity extends AppCompatActivity {
         data.add(getString(R.string.android_async_task));
         data.add(getString(R.string.android_ndk_jni_demo));
         data.add(getString(R.string.android_traffic_states_demo));
+        data.add(getString(R.string.android_calendar_demo));
+        data.add(getString(R.string.android_webview_demo));
+        data.add(getString(R.string.android_memleak_demo));
     }
 }
