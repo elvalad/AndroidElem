@@ -29,4 +29,6 @@
     <string name="mem_text_1">memory leak 1</string>
     <string name="mem_text_2">memory leak 2</string>
 
+    <string name="android_list_in_list_demo">List in list Demo</string>
+
 </resources>

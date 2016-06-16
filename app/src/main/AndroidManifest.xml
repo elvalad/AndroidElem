@@ -35,6 +35,8 @@
 
         <activity android:name=".MemoryLeakActivity"/>
 
+        <activity android:name=".ListInListActivity"/>
+
     </application>
 
 </manifest>

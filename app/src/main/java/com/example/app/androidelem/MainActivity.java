@@ -102,6 +102,10 @@ public class MainActivity extends AppCompatActivity {
                             intent.setClass(MainActivity.this, MemoryLeakActivity.class);
                             startActivity(intent);
                             break;
+                        case 8:
+                            intent.setClass(MainActivity.this, ListInListActivity.class);
+                            startActivity(intent);
+                            break;
                     }
                 }
             });
@@ -129,5 +133,6 @@ public class MainActivity extends AppCompatActivity {
         data.add(getString(R.string.android_calendar_demo));
         data.add(getString(R.string.android_webview_demo));
         data.add(getString(R.string.android_memleak_demo));
+        data.add(getString(R.string.android_list_in_list_demo));
     }
 }
